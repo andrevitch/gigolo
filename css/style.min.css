@@ -527,7 +527,7 @@ header {
     .store-item img {
         width: 100%;
         height: auto;
-        margin-bottom: 1.6rem;
+        margin-bottom: .8rem;
     }
 
     .store-item h3 {
@@ -535,7 +535,7 @@ header {
     }
 
     .store-item p {
-        margin-bottom: .8rem;
+        margin-bottom: .4rem;
     }
 
     .about-container>h4 {
