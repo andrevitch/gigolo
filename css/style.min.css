@@ -305,6 +305,7 @@ header {
     width: 4.8rem;
 }
 
+/* Mobile  */
 @media only screen and (max-width: 767px) {
     .container {
         padding-left: 2rem;
@@ -774,6 +775,7 @@ header {
     }
 }
 
+/* Tablet  */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 
     .services-container,
@@ -1228,6 +1230,7 @@ header {
     }
 }
 
+/* Desktop  */
 @media only screen and (min-width: 992px) {
 
     .services-container,
@@ -1249,8 +1252,8 @@ header {
     }
 
     h1 {
-        font-size: 8rem;
-        line-height: 7.2rem;
+        font-size: 10.4rem;
+        line-height: 8.4rem;
         margin-bottom: 2.4rem;
     }
 
