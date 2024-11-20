@@ -50,7 +50,8 @@ p,
 
 h1 {
     font-weight: 800;
-    text-shadow: 2px 2px 2px rgba(33, 32, 31, 0.3);
+    /* text-shadow: 2px 2px 2px rgba(33, 32, 31, 0.3); */
+    text-shadow: 8px 8px 20px rgba(33, 32, 31, 0.9);
 }
 
 a.brand,
@@ -1251,9 +1252,15 @@ header {
         display: none
     }
 
+    .btn-div a {
+        padding: 1.2rem 2.4rem;
+    }
+
     h1 {
-        font-size: 9.6rem;
-        line-height: 8rem;
+        /* font-size: 9.6rem;
+        line-height: 8rem; */
+        font-size: 10.4rem;
+        line-height: 8.8rem;
         margin-bottom: 2.4rem;
     }
 
@@ -1324,10 +1331,12 @@ header {
 
     .hero-fluid {
         background: url('../img/hero2.jpg') no-repeat center center/cover;
+        height: 100vh;
     }
 
     .hero-div {
-        bottom: 8.8rem;
+        /* bottom: 8.8rem; */
+        bottom: 15%;
     }
 
     .services-container>h4 {
@@ -1552,6 +1561,8 @@ header {
     .testimonial p {
         margin-bottom: 1.2rem;
         line-height: 2.8rem;
+        /* line-height: 3.2rem; */
+        /* font-size: 1.8rem; */
     }
 
     .testimonial h4 {
