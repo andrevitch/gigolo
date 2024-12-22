@@ -80,6 +80,11 @@ a {
     text-decoration: none;
 }
 
+.testimonial p {
+    font-style: italic;
+}
+
+
 address {
     font-style: normal;
 }
@@ -225,7 +230,6 @@ p,
     align-items: center;
 
     -webkit-box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
-    -moz-box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
     box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
 }
 
@@ -286,9 +290,13 @@ header {
 .map-div,
 .phone-div,
 .email-div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: .8rem;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     /* justify-content: center; */
 }
 
@@ -1091,7 +1099,8 @@ header {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 4rem;
     }
 
@@ -1603,7 +1612,9 @@ header {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     .contact-info h4 {
