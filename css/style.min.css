@@ -230,6 +230,7 @@ p,
     align-items: center;
 
     -webkit-box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
     box-shadow: 0px 4px 6px 0px rgba(97, 67, 33, 0.25);
 }
 
@@ -290,13 +291,9 @@ header {
 .map-div,
 .phone-div,
 .email-div {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: .8rem;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    align-items: center;
     /* justify-content: center; */
 }
 
@@ -1099,8 +1096,7 @@ header {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
         gap: 4rem;
     }
 
@@ -1257,6 +1253,13 @@ header {
 
     .up-div .pageup img {
         width: 3.2rem;
+    }
+}
+
+/* Tablet and Mobile Menu  */
+@media only screen and (max-width: 1023px) {
+    .menu-link {
+        font-size: 2rem;
     }
 }
 
@@ -1612,9 +1615,7 @@ header {
         -webkit-box-pack: justify;
         -ms-flex-pack: justify;
         justify-content: space-between;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        align-items: center;
     }
 
     .contact-info h4 {
@@ -1803,6 +1804,14 @@ header {
     .btn-secondary:hover {
         border: 1px solid rgba(var(--brand), 1);
     }
+
+
+    /* Hover  */
+    .footer-col-1 a:hover,
+    .footer-col-2 a:hover,
+    .footer-col-3 a:hover {
+        text-decoration: underline;
+    }
 }
 
 @media only screen and (max-width: 992px) {
@@ -1847,7 +1856,7 @@ header {
     }
 
     .menu_item a {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 
     .hamburger {
