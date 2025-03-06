@@ -335,7 +335,7 @@ header {
     h1 {
         font-size: 4rem;
         line-height: 4rem;
-        margin-bottom: 1.6rem;
+        margin-bottom: 1.2rem;
     }
 
     h2 {
@@ -388,9 +388,19 @@ header {
     }
 
     .hero-div {
-        bottom: 4.8rem;
+        bottom: 8rem;
     }
 
+    .hero-div p {
+        font-size: 1.6rem;
+        text-align: center;
+        max-width: 26.4rem;
+        margin: auto;
+        margin-bottom: 2.4rem;
+    }
+
+
+    /* Services  */
     .services-container>h4 {
         text-align: center;
         margin-bottom: 4.4rem;
@@ -811,7 +821,7 @@ header {
     h1 {
         font-size: 6.4rem;
         line-height: 5.6rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 1.6rem;
     }
 
     h2 {
@@ -862,9 +872,19 @@ header {
     }
 
     .hero-div {
-        bottom: 4.8rem;
+        bottom: 12rem;
     }
 
+    .hero-div p {
+        font-size: 1.8rem;
+        text-align: center;
+        max-width: 32rem;
+        margin: auto;
+        margin-bottom: 3.2rem;
+    }
+
+
+    /* Services  */
     .services-container>h4 {
         text-align: center;
         margin-bottom: 4.8rem;
@@ -1293,7 +1313,7 @@ header {
         line-height: 8rem; */
         font-size: 10.4rem;
         line-height: 8.8rem;
-        margin-bottom: 2.4rem;
+        margin-bottom: 1.6rem;
     }
 
     h2 {
@@ -1368,9 +1388,16 @@ header {
 
     .hero-div {
         /* bottom: 8.8rem; */
-        bottom: 15%;
+        bottom: 20%;
     }
 
+    .hero-div p {
+        font-size: 1.8rem;
+        text-align: center;
+        margin-bottom: 3.2rem;
+    }
+
+    /* Services  */
     .services-container>h4 {
         text-align: center;
         margin-bottom: 7.2rem;
